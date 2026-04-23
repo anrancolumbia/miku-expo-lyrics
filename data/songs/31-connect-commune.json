@@ -1,0 +1,414 @@
+{
+  "id": "31-connect-commune",
+  "title": "CONNECT:COMMUNE",
+  "artist": "FLAVOR FOLEY",
+  "mode": "timed",
+  "neteaseId": 2707954263,
+  "lines": [
+    {
+      "t": 4.94,
+      "ja": "1 2 3,tap your feet",
+      "zh": "1 2 3，踏起你的脚，"
+    },
+    {
+      "t": 7.35,
+      "ja": "Such a classic melody",
+      "zh": "如此经典的旋律，"
+    },
+    {
+      "t": 10.05,
+      "ja": "1 2 3, you know the words",
+      "zh": "1 2 3，你知道这歌词，"
+    },
+    {
+      "t": 12.11,
+      "ja": "So sing along with me!",
+      "zh": "所以与我一起唱吧！"
+    },
+    {
+      "t": 14.82,
+      "ja": "1 2 3, motley scenes",
+      "zh": "1 2 3，在银幕中，"
+    },
+    {
+      "t": 17.09,
+      "ja": "Shining through the silver screen",
+      "zh": "闪耀着的斑斓场景，"
+    },
+    {
+      "t": 20.11,
+      "ja": "1 2 3, dontcha think",
+      "zh": "1 2 3，你不觉得，"
+    },
+    {
+      "t": 22.12,
+      "ja": "this is how it ought to be?",
+      "zh": "这本就应该如此吗？"
+    },
+    {
+      "t": 25.05,
+      "ja": "Just another day, throw your cares away",
+      "zh": "又是一天，将你的烦恼抛开，"
+    },
+    {
+      "t": 26.94,
+      "ja": "and laugh hand-in-hand with me!",
+      "zh": "和我手牵手一起欢笑吧！"
+    },
+    {
+      "t": 29.01,
+      "ja": "just another day,",
+      "zh": "又是一天，"
+    },
+    {
+      "t": 29.83,
+      "ja": "just another day,",
+      "zh": "又是一天，"
+    },
+    {
+      "t": 32.11,
+      "ja": "1 2 3,what's the nicest thing you see?",
+      "zh": "1 2 3，你看见过的最好的东西是什么？"
+    },
+    {
+      "t": 37.73,
+      "ja": "It's me!!!!!",
+      "zh": "是我！！！！！"
+    },
+    {
+      "t": 39.23,
+      "ja": "The world you know, always running to and fro",
+      "zh": "你所知道的世界，总是奔忙不停，"
+    },
+    {
+      "t": 43.9,
+      "ja": "A frightful place to be",
+      "zh": "一个可怕的地方，"
+    },
+    {
+      "t": 48.94,
+      "ja": "But don't be scared, I'm not going anywhere!",
+      "zh": "但是不要害怕，我哪里也不会去！"
+    },
+    {
+      "t": 53.66,
+      "ja": "So just don't touch the dial and stay here a while with me!",
+      "zh": "所以别换台，和我待一小段时间吧！"
+    },
+    {
+      "t": 59.48,
+      "ja": "Panic! In static! Out-manic!",
+      "zh": "惊慌！在雪花屏中！癫狂失控"
+    },
+    {
+      "t": 61.2,
+      "ja": "don't you find it all romantic, the way things used to be?",
+      "zh": "在曾经的往事里，你不觉得这很浪漫吗？"
+    },
+    {
+      "t": 64.41,
+      "ja": "Classic, ecstatic, it's magic",
+      "zh": "经典，狂喜，这就是魔力，"
+    },
+    {
+      "t": 66.36,
+      "ja": "To trip the light fantastic, repeat it after me!",
+      "zh": "来轻快起舞，和我一起重复吧！"
+    },
+    {
+      "t": 69.3,
+      "ja": "This is how it should be, in studio seats",
+      "zh": "在演播室的座位上，这就是它应有的样子，"
+    },
+    {
+      "t": 71.61,
+      "ja": "My ego wired in the CRT",
+      "zh": "我的自我接入CRT管内，"
+    },
+    {
+      "t": 74.4,
+      "ja": "We can skip the sign-off",
+      "zh": "我们可以跳过结束语，"
+    },
+    {
+      "t": 75.53,
+      "ja": "OI' familiar scene, repeating",
+      "zh": "熟悉的画面，不断重复着，"
+    },
+    {
+      "t": 77.21,
+      "ja": "This is how it should be!",
+      "zh": "这就是它应有的样子！"
+    },
+    {
+      "t": 81.27,
+      "ja": "1 2 3, sing with me",
+      "zh": "1 2 3，与我一起唱，"
+    },
+    {
+      "t": 84.52,
+      "ja": "It's a catchy melody",
+      "zh": "这是个抓耳的旋律"
+    },
+    {
+      "t": 86.97,
+      "ja": "A B C, it sounds so sweet",
+      "zh": "A B C，听着如此甜美！"
+    },
+    {
+      "t": 89.53,
+      "ja": "When you sing along with me!",
+      "zh": "当你和我一起唱时"
+    },
+    {
+      "t": 92.6,
+      "ja": "4 5 6, check the script?",
+      "zh": "4 5 6，检查一下剧本？"
+    },
+    {
+      "t": 94.66,
+      "ja": "Keep your harmony in-key",
+      "zh": "把你的和声保持在音准里"
+    },
+    {
+      "t": 97.45,
+      "ja": "10 9 8, for the sake of the way it ought to be.",
+      "zh": "10 9 8，为了它本该有的样子"
+    },
+    {
+      "t": 102.31,
+      "ja": "Just another day, throw your cares away",
+      "zh": "又是一天，将你的烦恼抛开，"
+    },
+    {
+      "t": 104.78,
+      "ja": "And laugh hand-in-hand with me!",
+      "zh": "和我手牵手一起欢笑吧！"
+    },
+    {
+      "t": 106.29,
+      "ja": "Just another day, Just another day of",
+      "zh": "又是一天，又是"
+    },
+    {
+      "t": 108.18,
+      "ja": "keeping our company!",
+      "zh": "我们作伴的一天！"
+    },
+    {
+      "t": 110.02,
+      "ja": "Who cares what people say, we'll stay another day in revelry, reverie!",
+      "zh": "谁在乎人们怎么讲，我们会再多留一天，沉浸在狂欢与幻想里！"
+    },
+    {
+      "t": 114.1,
+      "ja": "Always be together",
+      "zh": "永远在一起"
+    },
+    {
+      "t": 114.73,
+      "ja": "Fair and stormy weather",
+      "zh": "无论晴天还是暴雨"
+    },
+    {
+      "t": 115.94,
+      "ja": "never growing older",
+      "zh": "永不老去"
+    },
+    {
+      "t": 116.84,
+      "ja": "never growing colder",
+      "zh": "永不寒冷"
+    },
+    {
+      "t": 117.67,
+      "ja": "Always be together",
+      "zh": "永远在一起"
+    },
+    {
+      "t": 118.63,
+      "ja": "Now and for forever",
+      "zh": "现在直到永远"
+    },
+    {
+      "t": 120.31,
+      "ja": "1 2 3, who's the brightest star you see?",
+      "zh": "1 2 3，你看见过的最闪亮的星星⭐是谁？"
+    },
+    {
+      "t": 125.13,
+      "ja": "It's me.",
+      "zh": "是我"
+    },
+    {
+      "t": 128.3,
+      "ja": "The world you know never seems to take it slow",
+      "zh": "你所熟知的世界，似乎从未放慢脚步，"
+    },
+    {
+      "t": 134.03,
+      "ja": "A tiring pace indeed",
+      "zh": "确实是如此疲惫的节奏"
+    },
+    {
+      "t": 138.98,
+      "ja": "So don't delay, I'll be here to save the day!",
+      "zh": "所以不要再拖拉，让我来拯救大家吧！"
+    },
+    {
+      "t": 143.63,
+      "ja": "Just please don't touch the dial",
+      "zh": "只是请不要换台，"
+    },
+    {
+      "t": 145.57,
+      "ja": "Just stay here a while with me",
+      "zh": "和我待一小段时间吧！"
+    },
+    {
+      "t": 150.58,
+      "ja": "Panic! In static! Out-manic!",
+      "zh": "惊慌！在雪花屏中！癫狂失控！"
+    },
+    {
+      "t": 152.38,
+      "ja": "Don't you find it all romantic, the way things used to be?",
+      "zh": "在曾经的往事里，你不觉得这很浪漫吗？"
+    },
+    {
+      "t": 155.61,
+      "ja": "Classic, ecstatic, it's magic",
+      "zh": "经典，狂喜，这就是魔力，"
+    },
+    {
+      "t": 157.51,
+      "ja": "To trip the light fantastic, repeat is after me!",
+      "zh": "来轻快起舞，和我一起重复吧！"
+    },
+    {
+      "t": 160.49,
+      "ja": "This is how it should be, in studio seats",
+      "zh": "在演播室的座位上，这就是它应有的样子，"
+    },
+    {
+      "t": 162.86,
+      "ja": "My ego wired in the CRT",
+      "zh": "我的自我接入CRT管内，"
+    },
+    {
+      "t": 165.41,
+      "ja": "We can skip the sigh-off",
+      "zh": "我们可以跳过结束语，"
+    },
+    {
+      "t": 166.63,
+      "ja": "OI' familiar scene, repeating",
+      "zh": "熟悉的画面，不断重复着，"
+    },
+    {
+      "t": 168.01,
+      "ja": "This is how it should be!",
+      "zh": "这就是它应有的样子！"
+    },
+    {
+      "t": 176.29,
+      "ja": "When you go,",
+      "zh": "当你离开，"
+    },
+    {
+      "t": 178.76,
+      "ja": "just don't change the channel.",
+      "zh": "只是请你不要换台"
+    },
+    {
+      "t": 181.82,
+      "ja": "I hope you won't be long.",
+      "zh": "我希望你不要离开得太久"
+    },
+    {
+      "t": 187.5,
+      "ja": "After all, I want to be wanted.",
+      "zh": "毕竟，我只是想被需要"
+    },
+    {
+      "t": 192.57,
+      "ja": "Is that so wrong?",
+      "zh": "这也有错吗？"
+    },
+    {
+      "t": 200.35,
+      "ja": "Panic! In static! Out-manic!",
+      "zh": "惊慌！在雪花屏中！癫狂失控！"
+    },
+    {
+      "t": 202.23,
+      "ja": "Don't you find it all romantic, the way things used to be?",
+      "zh": "在曾经的往事里，你不觉得这很浪漫吗？"
+    },
+    {
+      "t": 205.44,
+      "ja": "Classic, ecstatic, it's magic",
+      "zh": "经典，狂喜，这就是魔力，"
+    },
+    {
+      "t": 207.38,
+      "ja": "To trip the light fantastic, repeat is after me!",
+      "zh": "来轻快起舞，和我一起重复吧！"
+    },
+    {
+      "t": 210.31,
+      "ja": "This is how it should be, in studio seats",
+      "zh": "在演播室的座位上，这就是它应有的样子，"
+    },
+    {
+      "t": 212.62,
+      "ja": "My ego wired in the CRT",
+      "zh": "我的自我接入CRT管内，"
+    },
+    {
+      "t": 215.22,
+      "ja": "We can skip the sign-off",
+      "zh": "我们可以跳过结束语，"
+    },
+    {
+      "t": 216.54,
+      "ja": "OI' familiar scene, repeating",
+      "zh": "熟悉的画面，不断重复着，"
+    },
+    {
+      "t": 217.85,
+      "ja": "This is how it should be!",
+      "zh": "这就是它应有的样子！"
+    },
+    {
+      "t": 220.53,
+      "ja": "This is how it should be, in studio seats",
+      "zh": "在演播室的座位上，这就是它应有的样子，"
+    },
+    {
+      "t": 222.87,
+      "ja": "My ego wired in the CRT",
+      "zh": "我的自我接入CRT管内，"
+    },
+    {
+      "t": 225.45,
+      "ja": "We can skip the sign-off",
+      "zh": "我们可以跳过结束语，"
+    },
+    {
+      "t": 226.77,
+      "ja": "OI' familiar scene, repeating",
+      "zh": "熟悉的画面，不断重复着，"
+    },
+    {
+      "t": 227.89,
+      "ja": "This is how it should be!",
+      "zh": "这就是它应有的样子！"
+    },
+    {
+      "t": 238.18,
+      "ja": "Repeating \"This is how it should be!\"",
+      "zh": "重复：“ 这就是它应有的样子！”"
+    }
+  ]
+}

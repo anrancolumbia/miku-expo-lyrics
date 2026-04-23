@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Miku Expo</title>
+<link rel="apple-touch-icon" href="pjsk.webp">
+<link rel="icon" href="pjsk.webp">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#000000">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Setlist view -->
+<section id="setlist-view" class="view">
+  <header class="setlist-header">
+    <h1 id="concert-title">
+      <span id="concert-title-text">Miku Expo</span>
+      <img class="title-deco" src="13335.gif" alt="" aria-hidden="true">
+    </h1>
+    <div class="hint">タップで開く / 点击进入</div>
+    <div id="pwa-hint" class="pwa-hint hidden">
+      iPhone 建议：分享 → <b>添加到主屏幕</b>，从图标打开无 Safari 干扰
+      <button id="pwa-dismiss" class="pwa-dismiss" aria-label="dismiss">×</button>
+    </div>
+  </header>
+  <ol id="setlist"></ol>
+</section>
+
+<!-- Song view -->
+<section id="song-view" class="view hidden">
+  <header class="song-header">
+    <button id="back-btn" class="icon-btn" aria-label="back">←</button>
+    <button id="prev-btn" class="icon-btn" aria-label="prev song" title="上一首">⏮</button>
+    <div class="song-meta">
+      <div id="song-title"></div>
+      <div id="song-artist"></div>
+    </div>
+    <button id="next-btn" class="icon-btn" aria-label="next song" title="下一首">⏭</button>
+    <button id="fs-btn" class="icon-btn" aria-label="fullscreen" title="全屏">⛶</button>
+  </header>
+
+  <div id="lyrics-scroll">
+    <ul id="lyrics"></ul>
+  </div>
+
+  <footer id="controls">
+    <!-- Timed mode controls -->
+    <div id="timed-controls">
+      <button id="autoscroll-btn" class="toggle" aria-pressed="true">
+        <img class="miku-icon" src="pjsk.webp" alt="">
+        <span class="follow-pill">follow</span>
+      </button>
+      <div id="offset-display">点击任意一行可跳到该位置 · 对不齐可再次进入</div>
+    </div>
+    <!-- Manual mode controls -->
+    <div id="manual-controls" class="hidden">
+      <button id="manual-prev" class="nudge">← 前</button>
+      <button id="manual-next" class="primary">下一句 NEXT →</button>
+    </div>
+  </footer>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
