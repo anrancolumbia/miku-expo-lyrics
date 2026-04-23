@@ -14,18 +14,27 @@
 </head>
 <body>
 
-<!-- Setlist view -->
-<section id="setlist-view" class="view">
+<!-- Setlist picker view -->
+<section id="picker-view" class="view">
   <header class="setlist-header">
     <h1 id="concert-title">
-      <span id="concert-title-text">Miku Expo</span>
+      <span id="concert-title-text">Miku Expo 2026</span>
       <img class="title-deco" src="13335.gif" alt="" aria-hidden="true">
     </h1>
-    <div class="hint">タップで開く / 点击进入</div>
+    <div class="hint">选择今晚的 Setlist</div>
     <div id="pwa-hint" class="pwa-hint hidden">
       iPhone 建议：分享 → <b>添加到主屏幕</b>，从图标打开无 Safari 干扰
       <button id="pwa-dismiss" class="pwa-dismiss" aria-label="dismiss">×</button>
     </div>
+  </header>
+  <div id="picker-cards"></div>
+</section>
+
+<!-- Setlist songs view -->
+<section id="setlist-view" class="view hidden">
+  <header class="setlist-header setlist-inner-header">
+    <button id="picker-back-btn" class="icon-btn" aria-label="back to picker">←</button>
+    <h1 id="current-setlist-title">SETLIST</h1>
   </header>
   <ol id="setlist"></ol>
 </section>

@@ -1,7 +1,7 @@
 // Miku Expo lyrics viewer — offline cache
 // Strategy: cache-first for app shell + song data. Bump VERSION to force refresh.
 
-const VERSION = 'miku-v1-2026-04-22';
+const VERSION = 'miku-v2-2026-04-22';
 const SHELL = [
   './',
   './index.html',
@@ -16,11 +16,13 @@ self.addEventListener('install', (e) => {
     const cache = await caches.open(VERSION);
     // Shell files first (required)
     await cache.addAll(SHELL);
-    // Then proactively cache all songs so no network needed at concert
+    // Then proactively cache all songs across all setlists so no network needed at concert
     try {
       const resp = await fetch('./data/setlist.json', { cache: 'no-cache' });
-      const setlist = await resp.json();
-      const songUrls = setlist.songs.map(s => `./data/songs/${s.id}.json`);
+      const data = await resp.json();
+      const ids = new Set();
+      (data.setlists || []).forEach(sl => (sl.songs || []).forEach(id => ids.add(id)));
+      const songUrls = [...ids].map(id => `./data/songs/${id}.json`);
       await cache.addAll(songUrls);
     } catch (err) {
       console.warn('[sw] pre-cache songs failed', err);

@@ -1,209 +1,101 @@
 {
-  "concert": "Miku Expo 2026",
-  "songs": [
+  "concert": "Miku Expo 2026 North America",
+  "setlists": [
     {
-      "id": "01-teo",
-      "title": "テオ",
-      "artist": "Omoi",
-      "mode": "timed"
+      "id": "A",
+      "name": "SETLIST A",
+      "songs": [
+        "01-teo",
+        "02-kimagure-mercy",
+        "03-culture",
+        "08-play-with-fire",
+        "09-worlds-end-dancehall",
+        "10-tyqoon",
+        "11-rettou-joutou",
+        "14-super-cat",
+        "15-sweet-magic",
+        "16-amazing-dolce",
+        "17-caged-flower",
+        "18-godish",
+        "19-love-is-war",
+        "20-patchwork-staccato",
+        "21-room-for-fantasy",
+        "22-somedays-coming",
+        "25-drop-pop-candy",
+        "26-ohedo-julianight",
+        "27-magical-cure",
+        "28-catch-the-wave",
+        "29-shake-it",
+        "30-39",
+        "31-connect-commune",
+        "32-artifact",
+        "33-decorator",
+        "34-odds-and-ends"
+      ]
     },
     {
-      "id": "02-kimagure-mercy",
-      "title": "気まぐれメルシィ",
-      "artist": "P*Light × 初音ミク",
-      "mode": "timed"
+      "id": "B",
+      "name": "SETLIST B",
+      "songs": [
+        "01-teo",
+        "04-2d-dream-fever",
+        "05-darling-dance",
+        "08-play-with-fire",
+        "09-worlds-end-dancehall",
+        "10-tyqoon",
+        "12-8hit",
+        "14-super-cat",
+        "15-sweet-magic",
+        "16-amazing-dolce",
+        "17-caged-flower",
+        "18-godish",
+        "19-love-is-war",
+        "20-patchwork-staccato",
+        "21-room-for-fantasy",
+        "23-never-die",
+        "25-drop-pop-candy",
+        "26-ohedo-julianight",
+        "27-magical-cure",
+        "28-catch-the-wave",
+        "29-shake-it",
+        "30-39",
+        "31-connect-commune",
+        "32-artifact",
+        "33-decorator",
+        "34-odds-and-ends"
+      ]
     },
     {
-      "id": "03-culture",
-      "title": "カルチャ",
-      "artist": "ツミキ ft. 初音ミク",
-      "mode": "timed"
-    },
-    {
-      "id": "04-2d-dream-fever",
-      "title": "2次元ドリームフィーバー",
-      "artist": "PolyphonicBranch",
-      "mode": "timed"
-    },
-    {
-      "id": "05-darling-dance",
-      "title": "ダーリンダンス",
-      "artist": "Kairiki bear",
-      "mode": "timed"
-    },
-    {
-      "id": "06-raspberry-monster",
-      "title": "Raspberry*Monster",
-      "artist": "HoneyWorks",
-      "mode": "timed"
-    },
-    {
-      "id": "07-solar-system-disco",
-      "title": "Solar System Disco",
-      "artist": "NayutalieN",
-      "mode": "timed"
-    },
-    {
-      "id": "08-play-with-fire",
-      "title": "ヒアソビ (Play with Fire)",
-      "artist": "Camellia ft. 初音ミク",
-      "mode": "timed"
-    },
-    {
-      "id": "09-worlds-end-dancehall",
-      "title": "ワールズエンド・ダンスホール",
-      "artist": "wowaka",
-      "mode": "timed"
-    },
-    {
-      "id": "10-tyqoon",
-      "title": "TYQOON",
-      "artist": "Sohbana",
-      "mode": "timed"
-    },
-    {
-      "id": "11-rettou-joutou",
-      "title": "劣等上等",
-      "artist": "Giga",
-      "mode": "timed"
-    },
-    {
-      "id": "12-8hit",
-      "title": "8HIT",
-      "artist": "じーざす ft. 鏡音リン・レン",
-      "mode": "timed"
-    },
-    {
-      "id": "13-roki",
-      "title": "ロキ",
-      "artist": "みきとP",
-      "mode": "timed"
-    },
-    {
-      "id": "14-super-cat",
-      "title": "すーぱーぬこになれんかった",
-      "artist": "まふまふ ft. 鏡音レン",
-      "mode": "pseudo"
-    },
-    {
-      "id": "15-sweet-magic",
-      "title": "スイートマジック",
-      "artist": "Junky",
-      "mode": "timed"
-    },
-    {
-      "id": "16-amazing-dolce",
-      "title": "Amazing Dolce",
-      "artist": "ひとしずくP",
-      "mode": "timed"
-    },
-    {
-      "id": "17-caged-flower",
-      "title": "囚われのマリオネット",
-      "artist": "KAITO",
-      "mode": "timed"
-    },
-    {
-      "id": "18-godish",
-      "title": "神っぽいな",
-      "artist": "ピノキオピー",
-      "mode": "timed"
-    },
-    {
-      "id": "19-love-is-war",
-      "title": "恋は戦争",
-      "artist": "supercell",
-      "mode": "timed"
-    },
-    {
-      "id": "20-patchwork-staccato",
-      "title": "ツギハギスタッカート",
-      "artist": "とあ",
-      "mode": "timed"
-    },
-    {
-      "id": "21-room-for-fantasy",
-      "title": "Room for a Fantasy",
-      "artist": "nostraightanswer",
-      "mode": "timed"
-    },
-    {
-      "id": "22-somedays-coming",
-      "title": "Someday'z Coming",
-      "artist": "Shoten Taro",
-      "mode": "timed"
-    },
-    {
-      "id": "23-never-die",
-      "title": "Never Die",
-      "artist": "Yuyoyuppe",
-      "mode": "timed"
-    },
-    {
-      "id": "24-wanderlast",
-      "title": "THE WANDERLAST",
-      "artist": "sasakure.UK",
-      "mode": "timed"
-    },
-    {
-      "id": "25-drop-pop-candy",
-      "title": "ドロップポップキャンディ",
-      "artist": "Giga",
-      "mode": "timed"
-    },
-    {
-      "id": "26-ohedo-julianight",
-      "title": "大江戸ジュリアナイト",
-      "artist": "Mitchie M ft. 初音ミク・KAITO",
-      "mode": "timed"
-    },
-    {
-      "id": "27-magical-cure",
-      "title": "M@GICAL CURE! LOVE SHOT!",
-      "artist": "Mitchie M ft. 初音ミク (EN cover timing)",
-      "mode": "timed"
-    },
-    {
-      "id": "28-catch-the-wave",
-      "title": "Catch The Wave",
-      "artist": "Def Tech (cover timing)",
-      "mode": "timed"
-    },
-    {
-      "id": "29-shake-it",
-      "title": "shake it!",
-      "artist": "emon",
-      "mode": "timed"
-    },
-    {
-      "id": "30-39",
-      "title": "39",
-      "artist": "sasakure.UK DECO*27",
-      "mode": "timed"
-    },
-    {
-      "id": "31-connect-commune",
-      "title": "CONNECT:COMMUNE",
-      "artist": "FLAVOR FOLEY",
-      "mode": "timed"
-    },
-    {
-      "id": "32-artifact",
-      "title": "Artifact",
-      "artist": "buzzG",
-      "mode": "timed"
-    },
-    {
-      "id": "33-decorator",
-      "title": "DECORATOR",
-      "artist": "livetune",
-      "mode": "timed"
-    },
-    {
-      "id": "34-odds-and-ends",
-      "title": "ODDS&ENDS",
-      "artist": "ryo",
-      "mode": "timed"
+      "id": "C",
+      "name": "SETLIST C",
+      "songs": [
+        "01-teo",
+        "06-raspberry-monster",
+        "07-solar-system-disco",
+        "08-play-with-fire",
+        "09-worlds-end-dancehall",
+        "10-tyqoon",
+        "13-roki",
+        "14-super-cat",
+        "15-sweet-magic",
+        "16-amazing-dolce",
+        "17-caged-flower",
+        "18-godish",
+        "19-love-is-war",
+        "20-patchwork-staccato",
+        "21-room-for-fantasy",
+        "24-wanderlast",
+        "25-drop-pop-candy",
+        "26-ohedo-julianight",
+        "27-magical-cure",
+        "28-catch-the-wave",
+        "29-shake-it",
+        "30-39",
+        "31-connect-commune",
+        "32-artifact",
+        "33-decorator",
+        "34-odds-and-ends"
+      ]
     }
   ]
 }

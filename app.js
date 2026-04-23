@@ -2,6 +2,10 @@
   'use strict';
 
   // --- DOM ---
+  const pickerView = document.getElementById('picker-view');
+  const pickerCards = document.getElementById('picker-cards');
+  const pickerBackBtn = document.getElementById('picker-back-btn');
+  const currentSetlistTitle = document.getElementById('current-setlist-title');
   const setlistView = document.getElementById('setlist-view');
   const songView = document.getElementById('song-view');
   const setlistEl = document.getElementById('setlist');
@@ -25,7 +29,9 @@
   const manualNext = document.getElementById('manual-next');
 
   // --- State ---
-  let setlist = null;
+  let setlistData = null;   // the whole { concert, setlists: [A,B,C] } blob
+  let setlist = null;       // { id, name, songs: [{id,title,artist,mode}...] } — currently chosen
+  let songMetaCache = {};   // id → {title, artist, mode}
   let currentSong = null;
   let isPlaying = false;
   let startedAt = 0; // performance.now() at press
@@ -48,9 +54,67 @@
 
   async function loadSetlist() {
     const r = await fetch('data/setlist.json');
-    setlist = await r.json();
-    concertTitle.textContent = setlist.concert || 'Concert';
+    setlistData = await r.json();
+    concertTitle.textContent = setlistData.concert || 'Concert';
+    // Prefetch each unique song's meta (title/artist/mode) once.
+    const allIds = new Set();
+    setlistData.setlists.forEach(sl => sl.songs.forEach(id => allIds.add(id)));
+    await Promise.all([...allIds].map(async id => {
+      try {
+        const sr = await fetch(`data/songs/${id}.json`);
+        const sd = await sr.json();
+        songMetaCache[id] = { id, title: sd.title, artist: sd.artist, mode: sd.mode };
+      } catch (e) {
+        songMetaCache[id] = { id, title: id, artist: '', mode: 'manual' };
+      }
+    }));
+    renderPicker();
+    // Restore last picked setlist if any
+    const saved = localStorage.getItem('miku-setlist');
+    if (saved && setlistData.setlists.some(s => s.id === saved)) {
+      pickSetlist(saved);
+    }
+  }
+
+  function renderPicker() {
+    pickerCards.innerHTML = '';
+    setlistData.setlists.forEach(sl => {
+      const card = document.createElement('button');
+      card.className = 'picker-card';
+      const previewTitles = sl.songs.slice(1, 4)
+        .map(id => songMetaCache[id]?.title || id)
+        .join(' · ');
+      card.innerHTML = `
+        <div class="letter">${escape(sl.id)}</div>
+        <div class="count">${sl.songs.length} songs · ${escape(sl.name)}</div>
+        <div class="preview">首曲 ${escape(songMetaCache[sl.songs[0]]?.title || '')}<br>接 ${escape(previewTitles)} …</div>
+      `;
+      card.addEventListener('click', () => pickSetlist(sl.id));
+      pickerCards.appendChild(card);
+    });
+  }
+
+  function pickSetlist(id) {
+    const chosen = setlistData.setlists.find(s => s.id === id);
+    if (!chosen) return;
+    setlist = {
+      id: chosen.id,
+      name: chosen.name,
+      songs: chosen.songs.map(sid => songMetaCache[sid] || { id: sid, title: sid, artist: '', mode: 'manual' }),
+    };
+    currentSetlistTitle.textContent = chosen.name;
+    localStorage.setItem('miku-setlist', id);
     renderSetlist();
+    pickerView.classList.add('hidden');
+    setlistView.classList.remove('hidden');
+  }
+
+  function backToPicker() {
+    setlist = null;
+    localStorage.removeItem('miku-setlist');
+    setlistView.classList.add('hidden');
+    songView.classList.add('hidden');
+    pickerView.classList.remove('hidden');
   }
 
   function renderSetlist() {
@@ -330,6 +394,7 @@
   // --- Events ---
   fsBtn.addEventListener('click', toggleFullscreen);
   autoscrollBtn.addEventListener('click', toggleAutoScroll);
+  pickerBackBtn.addEventListener('click', backToPicker);
   nextBtn.addEventListener('click', () => stepSong(+1));
   prevBtn.addEventListener('click', () => stepSong(-1));
 
